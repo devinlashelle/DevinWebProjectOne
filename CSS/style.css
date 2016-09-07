@@ -1,0 +1,43 @@
+body {
+  background-color:gray
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: avenir;
+  font-size: 150px;
+  color:black;
+}
+
+h3 {
+    font-family: avenir;
+    font-size: 100px;
+    color:black;
+}
+
+ul {
+    font-family: avenir;
+    font-size: 50px;
+    color:black;
+}
+
+p.intro {
+    font-family: avenir;
+    font-size: 50px;
+    color:black;
+}
+
+p.second {
+    font-family: avenir;
+    font-size: 50px;
+    color:black;
+}
+p.coffee {
+    font-family: avenir;
+    font-size: 50px;
+    color:black;
+}
