@@ -2,9 +2,14 @@ body {
   background-color:black
 }
 
-li a {
-    display: block;
-    width: 120px;
+ul.nav li {
+    float: left;
+    list-style: none;
+    margin-right: 30px;
+}
+
+ul.nav li:hover {
+  font-size: 80px;
 }
 
 .container img {
