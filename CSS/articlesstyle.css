@@ -1,17 +1,82 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
 body {
-  background-color: gray
-
+  background-color:#25282a;
+  margin: 0 px;
 }
 
-.headercontainer img {
-  height: 228px;
-  margin: 40px;
+ul.nav li {
+    float: left;
+    list-style: none;
+    margin-right: 30px;
 }
 
-.blogscontainer img {
-  width: auto;
-  height: 175px;
-  float:left;
+ul.nav li:hover {
+  font-size: 20px;
+}
+
+div.container {
+  background-color:#54575a;
+  top: 15px;
+  bottom: 15px;
+  position: relative;
+  margin: 0 auto;
+  width: 1100px;
+  box-sizing: border-box;
+}
+
+div.gallery {
   margin-left: 40px;
   margin-bottom: 40px;
+  position: relative;
+}
+
+ul {
+    font-family: avenir;
+    font-size: 24px;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+h1 {
+  font-family: avenir;
+  font-size: 50px;
+  color:white;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+h3 {
+    font-family: avenir;
+    font-size: 30px;
+    color:white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+p.intro {
+    font-family: avenir;
+    font-size: 18px;
+    color:white;
+    padding-left:40px;
+    padding-right: 40px;
+}
+
+p.second {
+    font-family: avenir;
+    font-size: 24px;
+    color:white;
+    padding-left:40px;
+    padding-right: 40px;
+}
+p.coffee {
+    font-family: avenir;
+    font-size: 18px;
+    color:white;
+    padding-left:40px;
+    padding-right: 40px;
 }
