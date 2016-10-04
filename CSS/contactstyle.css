@@ -11,7 +11,7 @@ body {
 ul {
     font-family: avenir;
     font-size: 24px;
-    color: white;
+    color:white;
 }
 
 ul.nav li {
@@ -35,24 +35,13 @@ div.container {
   box-sizing: border-box;
 }
 
-ul.coffeetypes {
-    margin-left: 25px;
-}
 
 h1 {
   font-family: avenir;
   font-size: 50px;
   color:white;
-  padding-left: 40px;
+  padding-left:40px;
   padding-right: 40px;
-}
-
-h3 {
-    font-family: avenir;
-    font-size: 30px;
-    color:white;
-    padding-left: 40px;
-    padding-right: 40px;
 }
 
 p {
@@ -60,21 +49,6 @@ p {
 }
 
 p.intro {
-    font-family: avenir;
-    font-size: 18px;
-    color:white;
-    padding-left:40px;
-    padding-right: 40px;
-}
-
-p.second {
-    font-family: avenir;
-    font-size: 24px;
-    color:white;
-    padding-left:40px;
-    padding-right: 40px;
-}
-p.coffee {
     font-family: avenir;
     font-size: 18px;
     color:white;
