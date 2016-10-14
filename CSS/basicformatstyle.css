@@ -9,10 +9,14 @@ body {
 }
 
 .button {
+    font-size: 12px;
     float: left;
     border: white;
     border-radius: 3px;
-    margin: 10px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 ul {
@@ -32,11 +36,14 @@ ul.nav li a {
   background-color: black;
 }
 
+ul.coffeetypes {
+    margin-left: 25px;
+}
+
 a {
   color: inherit;
   text-decoration: none;
 }
-
 
 div.container {
   background-color:#54575a;
@@ -49,6 +56,17 @@ div.container {
   box-sizing: border-box;
 }
 
+.bannerflag {
+  position: relative;
+  left: -54px;
+  padding-top: 20px;
+}
+
+h1 {
+  position: relative;
+  top: -137px;
+}
+
 h1 {
   font-family: avenir;
   font-size: 50px;
@@ -58,10 +76,23 @@ h1 {
 }
 
 h3 {
+  position: relative;
+  top: -125px;
+}
+
+h3 {
     font-family: avenir;
     font-size: 30px;
     color:white;
     padding-left:40px;
+    padding-right: 40px;
+}
+
+h4 {
+    font-family: avenir;
+    font-size: 20px;
+    color:white;
+    padding-top: 20px;
     padding-right: 40px;
 }
 
@@ -75,12 +106,14 @@ div.intro {
   color:white;
   padding-left:40px;
   padding-right: 40px;
+  margin-top: -140px;
 }
 
 p.intro {
     font-family: avenir;
     font-size: 18px;
     color:white;
+    margin-top: -100px;
     padding-left:40px;
     padding-right: 40px;
 }

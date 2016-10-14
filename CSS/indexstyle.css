@@ -1,11 +1,30 @@
-.gallery img {
+.gallery {
+  margin: 0 auto;
+  margin-left: 70px;
+  width: 90%;
+}
+.gallery a {
 display: block;
 max-width: 25%;
 max-height: 25%;
 margin-left: 40px;
 margin-bottom: 40px;
+margin-right: 10px;
 position:relative;
 float: left;
+font-family: avenir;
+font-style: oblique;
+font-size: 30px;
+color: white;
+}
+
+.gallery img {
+  width:100%;
+}
+.gallery p {
+  position: absolute;
+  transform:translateY(-50%);
+  top: 50%;
 }
 
 .gallery img:hover {
@@ -14,14 +33,4 @@ float: left;
 
 .clear-fix {
   clear:both;
-}
-
-.bannerflag {
-  position: relative;
-  left: -54px;
-}
-
-h1 {
-  position: relative;
-  top: -137px;
 }
